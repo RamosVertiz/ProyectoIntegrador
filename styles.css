@@ -45,6 +45,7 @@
     font-family: 'Roboto', sans-serif;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
+    
 }
 
 
@@ -76,16 +77,13 @@ li {
     
 }
 
-.slategray {
- color: #ff383f;
-}
-
-.h-5 {
+.separador {
     width: 95%;
     margin: 0 auto;
     height: 1.5vw;
     margin-bottom: 0.5vw;
     margin-top: 0.5vw;
+    color: #ff383f;
 }
 
 .principal {
@@ -109,7 +107,7 @@ li {
 
 }
 
-.artistas {
+.fotoMuseo {
     width: 60%;
     height: 100%;
     display: flex;
@@ -345,7 +343,34 @@ padding-bottom: .5vw;
     text-align: center;
 }
 
-@media (max-width: 1100px) and (min-width: 550px) {
+
+@media (max-width: 1100px) and (min-width: 992px) {
+
+    .ingreso {
+
+        height: 3vw;
+    }
+
+    .ingreso a {
+        font-size: 1.4vw;
+    }
+    
+    ul {
+    width: 100%;
+    }
+    li {
+    color: #000000;
+    font-size: 1.4vw;
+    width: 25%;
+    text-align: center;
+    
+    }
+
+
+
+}
+
+@media (max-width: 991px) and (min-width: 550px) {
 
     .ingreso {
 
@@ -355,11 +380,102 @@ padding-bottom: .5vw;
     }
     
     .ingreso a {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     
+    .cabecera{
+        height: 11vh;
+    }
+    
+    li {
+    
+    font-size: 2.5vw;
+    width: 50%;
+    text-align: left;
+    
+    }
 
+    .menuLink {
+    
+    text-transform: uppercase;
+    background-color: white;
+    color: #ff383f;
+    padding-left: 2vw;  
+    }
+    .menuLink:hover {
+    background-color: #ff383f;
+    color: white;
+    }
+    .macba {
+    display: none;
+    }
+  
     
 
+    .separador {
+        
+        height: 3.5vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+    }
+    
+    .principal {
+        width: 95%;
+        margin: 0 auto;
+        height: 70vh;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0.5vw;
+    
+    }
+    
+    .portada {
+        width: 100%;
+        background-image: url(museo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .fotoMuseo {
+        display: none;
+    }
+    
+    .portada h1 {
+        padding: 10px;
+        letter-spacing: 1vw;
+        font-size: 16vw;
+        
+    }
+    
+    .portada  p {
+        width: 70%;
+        color: #000000;
+        text-shadow: .04em .04em 0 #a1a1a1;
+        font-weight: 400;
+        text-align: center;
+        font-size: 2.8vw;
+        margin-top: 0px;
+        
+        
+    }
+    
+    .portada button {
+        
+        color: white;
+        font-size: 2.5vw;
+        width: 40%;
+        height: 7vw;
+        
+        
+    }
+    
+    
+    button span {
+        margin-right: 1vw;
+        
+    }
+    
 
 }
