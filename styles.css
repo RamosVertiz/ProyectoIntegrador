@@ -413,7 +413,7 @@ padding-bottom: .5vw;
     .macba2 {
         
         display:contents;
-        font-size: 5vw;
+        font-size: 5.4vw;
         letter-spacing: 0.2vw;
     }
 
@@ -467,26 +467,28 @@ padding-bottom: .5vw;
     
     .muestra {
     width: 100%;
-    height: 32vw;
+    height: 36vw;
     margin-bottom: 2vw;
     }
 
 
     .muestraFuente h3 {
     width: 95%;
-    font-size: 2.7vw;
+    font-size: 3vw;
     }
 
     .muestraFuente p {
-    width: 80%;
-    font-size: 1.8vw;
+    width: 90%;
+    font-size: 2.2vw;
+    font-weight: 400;
+    line-height: 4vw;
     }
 
 
     .muestra2 {
     width: 100%;
-    height: 32vw;
-    margin-bottom: 2vw;
+    height: 36vw;
+    margin-bottom: 2.5vw;
     }
 
     .separadorPie {
@@ -510,7 +512,7 @@ padding-bottom: .5vw;
     }
 
     .pie h3 {
-    font-size:  2.5vw;
+    font-size:  3vw;
     font-weight: 400;
     letter-spacing: .2vw;
     padding-bottom: 1vw;
@@ -520,9 +522,9 @@ padding-bottom: .5vw;
     letter-spacing: .2vw;
     width: 100%;
     text-align: justify;
-    padding-left: 35%;
-    font-size: 2vw;
-
+    padding-left: 22%;
+    font-size: 3vw;
+   text-align:justify;
     }
 
     .pieInfo {
@@ -586,14 +588,16 @@ padding-bottom: .5vw;
     }
     
     .principal { 
-        height: 85vh;
+        height: auto;
     }
     
     .portada {
+        height: auto;
         width: 100%;
         background-image: url(museo.jpg);
         background-position: center;
         background-repeat: no-repeat;
+        padding-bottom: 3vw;
     }
     
     .fotoMuseo {
@@ -617,9 +621,10 @@ padding-bottom: .5vw;
     }
     
     .exposiciones {
+        height: auto;
         width: 95%;
         margin-top: 3vw;
-        margin-bottom: 12vw;
+        margin-bottom: 25vw;
     }
 
     .textoExposiciones {
@@ -631,8 +636,8 @@ padding-bottom: .5vw;
     
     .muestra {
     width: 100%;
-    height: 70vw;
-    margin-bottom: 2.5vw;
+    height: 63vw;
+    margin-bottom: 3vw;
     }
 
     .muestra img {
@@ -641,22 +646,24 @@ padding-bottom: .5vw;
 
     .muestraFuente h3 {
     width: 95%;
-    font-size: 4.5vw;
+    font-size: 5vw;
     letter-spacing: .3vw;
     margin-bottom: 1.2vw;
     }
 
     .muestraFuente p {
     width: 95%;
-    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 3.6vw;
+    font-size: 3.8vw;
     margin-bottom: 0vw;
     }
 
 
     .muestra2 {
     width: 100%;
-    height: 70vw;
-    margin-bottom: 2.5vw;
+    height: 63vw;
+    margin-bottom: 3vw;
     }
 
     .muestra2 img {
@@ -682,11 +689,11 @@ padding-bottom: .5vw;
     }
 
     .pie h2 {
-    font-size:  9vw;
+    font-size:  10vw;
     }
 
     .pie h3 {
-    font-size:  4.8vw;
+    font-size:  5vw;
     font-weight: 400;
     letter-spacing: .2vw;
     padding-bottom: 1vw;
