@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .ingreso {
     width: 95%;
     margin: 0 auto;
@@ -424,11 +428,12 @@ padding-bottom: .5vw;
     }
     
     .principal { 
-        height: 100vh;
+        height: 75vw;
     }
     
     .portada {
         width: 100%;
+        height: auto;
         background-image: url(museo.jpg);
         background-position: center;
         background-repeat: no-repeat;

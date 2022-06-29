@@ -1,0 +1,54 @@
+
+.visitas {
+    width: 50%;
+    background-image: url(museo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.containerHorariosEntradas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+    
+}
+
+.containerHorariosEntradas h3 {
+    color: black;
+    text-shadow: .04em .04em 0 #a1a1a1;
+    font-weight: 600;
+}
+
+.containerHorariosEntradas li {
+    
+    list-style:square;
+    color: black;
+    text-shadow: .04em .04em 0 #a1a1a1;
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: 600;
+    
+    
+}
+
+.containerHorariosEntradas ul {
+    padding-left: 0px;
+}
+
+.horarios {
+    width: 35%;
+}
+
+.entradas {
+    width: 35%;
+}
+
+
+iframe {
+    height: auto;
+    width: 50%;
+}
