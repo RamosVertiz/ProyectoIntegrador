@@ -1,0 +1,347 @@
+.body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingreso {
+    width: 95%;
+    margin: 0 auto;
+    height: 2vw;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+
+.ingreso a {
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.ingreso a:hover {
+    text-decoration: underline;
+}
+
+.ingreso a:last-child {
+    background-color: #ff383f;
+    color: white;
+    text-decoration:none;
+}
+.ingreso a:last-child:hover {
+    filter: opacity(.6);
+}
+
+.cabecera{
+    width: 95%;
+    height: 4vw;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+
+ul {
+    width: 100%;
+}
+li {
+    color: #000000;
+    font-size: 1.2vw;
+    width: 25%;
+    text-align: center;
+    
+}
+
+
+.menuLink {
+    color: #000000;
+    text-transform: uppercase;
+    
+}
+.menuLink:hover {
+    color: #ff383f;
+}
+
+
+.macba {
+    font-family: 'Erica One', cursive;
+    font-size: 2vw;
+    
+}
+
+.slategray {
+ color: #ff383f;
+}
+
+.h-5 {
+    width: 95%;
+    margin: 0 auto;
+    height: 1.5vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+}
+
+.principal {
+    width: 95%;
+    margin: 0 auto;
+    height: 70vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5vw;
+
+}
+
+.portada {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.artistas {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portada h1 {
+    color: #000000;
+    font-family: 'Erica One', cursive;
+    padding: 10px;
+    
+    letter-spacing: 0.3vw;
+    font-size: 8vw;
+    margin-bottom: 0px;
+    /* text-shadow: .02em .02em 0 #c4c4c4; */
+    
+}
+
+.portada  p {
+    width: 80%;
+    color: #000000;
+    text-shadow: .04em .04em 0 #a1a1a1;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.6vw;
+    margin-top: 0px;
+    
+    
+}
+
+.portada button {
+    background-color: #ff383f;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1vw;
+    border-style: none;
+    width: 55%;
+    height: 4vw;
+    border-radius: 8px;
+    
+}
+
+
+.portada button:hover {
+    filter: opacity(0.9);
+}
+
+button span {
+    margin-right: 1vw;
+    
+}
+
+
+
+.exposiciones {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 9vw;
+    margin-top: 2vw;
+}
+
+.textoExposiciones {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    font-weight: 200;
+    text-decoration: overline solid 2px #ff383f;
+    margin-bottom: 1.5vw;
+
+}
+
+.muestra {
+    width: 70%;
+    height: 20vw;
+    margin: 0 auto;
+    border: #535353 solid 1px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1vw;
+}
+
+.muestra img {
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-right: 3vw;
+    
+}
+
+.muestraTexto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+.muestraFuente h3 {
+    width: 95%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2vw;
+
+}
+
+.muestraFuente p {
+    width: 80%;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 300;
+    
+}
+
+
+.muestra2 {
+    width: 70%;
+    height: 20vw;
+    margin: 0 auto;
+    border: #535353 solid 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    margin-bottom: 1vw;
+    
+}
+
+.muestra2 img {
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    
+}
+.muestraTexto2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.separadorPie {
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #222222;
+    color: white;
+}
+
+.containerPie {
+    width: 100%;
+    height: 22vw;
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.pie {
+    width: 25%;
+    height: 100%;
+    color: white;
+}
+
+.pieFirma {
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.pie h2 {
+
+    font-family: 'Erica One', cursive;
+    font-size:  4vw;
+    
+}
+
+.pie h3 {
+    font-family:'Roboto', sans-serif; 
+    font-size:  1.5vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .1vw;
+    padding-bottom: .5vw;
+}
+
+.pie ul {
+    padding-left: 0px;
+}
+
+.pie li {
+ list-style: none;
+ font-family:'Roboto', sans-serif; 
+ color: white;
+ font-weight: 100;
+ letter-spacing: .1vw;
+ width: 100%;
+ text-align: left;
+ font-size: 1.1vw;
+ cursor: pointer;
+padding-bottom: .5vw;
+}
+
+.pie a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1vw;
+}
+
+.pieInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-top: 5vw;
+}
+
+.copyright {
+    background-color: #222222;
+    font-family:'Roboto', sans-serif; 
+    color: white;
+    font-weight: 200;
+    margin: 0 auto;
+    font-size: 0.7vw;
+    text-align: center;
+}
+
