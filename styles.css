@@ -345,3 +345,21 @@ padding-bottom: .5vw;
     text-align: center;
 }
 
+@media (max-width: 1100px) and (min-width: 550px) {
+
+    .ingreso {
+
+        height: 7vw;
+        justify-content: center;
+ 
+    }
+    
+    .ingreso a {
+        font-size: 4vw;
+    }
+    
+
+    
+
+
+}
