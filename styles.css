@@ -374,13 +374,13 @@ padding-bottom: .5vw;
 
     .ingreso {
 
-        height: 7vw;
+        height: 5vw;
         justify-content: center;
  
     }
     
     .ingreso a {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
     
     .cabecera{
@@ -410,24 +410,17 @@ padding-bottom: .5vw;
     display: none;
     }
   
-    
 
     .separador {
         
-        height: 3.5vw;
-        margin-bottom: 1vw;
-        margin-top: 1vw;
+        height: 3vw;
+        margin-bottom: 0.5vw;
+        margin-top: 0.5vw;
     }
     
     .principal {
-        width: 95%;
-        margin: 0 auto;
-        height: 70vh;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 0.5vw;
-    
+        
+        height: 90vh;
     }
     
     .portada {
@@ -435,7 +428,6 @@ padding-bottom: .5vw;
         background-image: url(museo.jpg);
         background-position: center;
         background-repeat: no-repeat;
-    
     }
     
     .fotoMuseo {
@@ -443,39 +435,61 @@ padding-bottom: .5vw;
     }
     
     .portada h1 {
-        padding: 10px;
         letter-spacing: 1vw;
-        font-size: 16vw;
-        
+        font-size: 16vw;        
     }
     
     .portada  p {
         width: 70%;
-        color: #000000;
-        text-shadow: .04em .04em 0 #a1a1a1;
-        font-weight: 400;
-        text-align: center;
-        font-size: 2.8vw;
-        margin-top: 0px;
-        
+        font-size: 2.8vw; 
         
     }
     
     .portada button {
         
-        color: white;
         font-size: 2.5vw;
         width: 40%;
         height: 7vw;
         
-        
     }
     
-    
-    button span {
-        margin-right: 1vw;
-        
+    .exposiciones {
+        margin-bottom: 9vw;
+        margin-top: 3vw;
     }
+
+    .textoExposiciones {
+        font-size: 4vw;
+        font-weight: 300;  
     
+    }
+
+    
+.muestra {
+    width: 90%;
+    height: 30vw;
+    margin-bottom: 2vw;
+}
+
+
+.muestraFuente h3 {
+    width: 95%;
+    font-size: 2.7vw;
+
+}
+
+.muestraFuente p {
+    width: 80%;
+    font-size: 1.8vw;
+
+}
+
+
+.muestra2 {
+    width: 90%;
+    height: 30vw;
+    margin-bottom: 2vw;
+}
+
 
 }
