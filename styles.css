@@ -370,7 +370,7 @@ padding-bottom: .5vw;
 
 }
 
-@media (max-width: 991px) and (min-width: 550px) {
+@media (max-width: 991px) and (min-width: 300px) {
 
     .ingreso {
 
@@ -465,31 +465,31 @@ padding-bottom: .5vw;
     }
 
     
-.muestra {
-    width: 90%;
-    height: 30vw;
+    .muestra {
+    width: 95%;
+    height: 33vw;
     margin-bottom: 2vw;
-}
+    }
 
 
-.muestraFuente h3 {
+    .muestraFuente h3 {
     width: 95%;
     font-size: 2.7vw;
 
-}
+    }
 
-.muestraFuente p {
+    .muestraFuente p {
     width: 80%;
     font-size: 1.8vw;
 
-}
+    }
 
 
-.muestra2 {
-    width: 90%;
-    height: 30vw;
+    .muestra2 {
+    width: 95%;
+    height: 33vw;
     margin-bottom: 2vw;
-}
+    }
 
 
 }
