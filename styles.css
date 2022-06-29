@@ -77,6 +77,16 @@ li {
     
 }
 
+.macba2 {
+    color: #000000;
+    font-family: 'Erica One', cursive;
+    font-size: 2vw;
+    display: none;
+    
+}
+
+
+
 .separador {
     width: 95%;
     margin: 0 auto;
@@ -400,6 +410,13 @@ padding-bottom: .5vw;
     display: none;
     }
 
+    .macba2 {
+        
+        display:contents;
+        font-size: 5vw;
+        letter-spacing: 0.2vw;
+    }
+
     .separador {  
         height: 3vw;
         margin-bottom: 0.5vw;
@@ -522,11 +539,11 @@ padding-bottom: .5vw;
 
     .ingreso {
         height: 8vw;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     
     .ingreso a {
-        font-size: 4vw;
+        font-size: 4.7vw;
     }
     
     .cabecera{
@@ -544,6 +561,7 @@ padding-bottom: .5vw;
     background-color: white;
     color: #ff383f;
     padding-left: 5vw;  
+    margin-top: 1.2vw;
     }
     .menuLink:hover {
     background-color: #ff383f;
@@ -553,10 +571,18 @@ padding-bottom: .5vw;
     display: none;
     }
 
+    .macba2 {
+        
+        display:contents;
+        letter-spacing: 0.2vw;
+        font-size: 9vw;
+    }
+
     .separador {  
         height: 5.5vw;
         margin-bottom: 0.5vw;
         margin-top: 0.5vw;
+        
     }
     
     .principal { 
@@ -591,27 +617,32 @@ padding-bottom: .5vw;
     }
     
     .exposiciones {
-        
+        width: 95%;
         margin-top: 3vw;
         margin-bottom: 12vw;
     }
 
     .textoExposiciones {
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: 300;  
+        letter-spacing: 0.8vw;
     }
 
     
     .muestra {
-    width: 100%;
-    height: 38vw;
+    width: 98%;
+    height: 50vw;
     margin-bottom: 2.5vw;
     }
 
+    .muestra img {
+        width: 40%;
+    }
 
     .muestraFuente h3 {
     width: 95%;
     font-size: 4.5vw;
+    letter-spacing: .3vw;
     margin-bottom: 1.2vw;
     }
 
@@ -623,10 +654,15 @@ padding-bottom: .5vw;
 
 
     .muestra2 {
-    width: 100%;
-    height: 38vw;
+    width: 98%;
+    height: 50vw;
     margin-bottom: 2.5vw;
     }
+
+    .muestra2 img {
+        width: 40%;
+    }
+   
 
     .separadorPie {
         height: 5.5vw;
