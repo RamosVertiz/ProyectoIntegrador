@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="formulario.css" />
+    <link rel="stylesheet" href="usuarios.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -72,7 +72,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link menuLink" href="#">Contacto</a>
+              <a class="nav-link menuLink" href="https://proyecto-integrador-hazel.vercel.app/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -81,47 +81,67 @@
 
     <div class="pattern-dots-sm slategray h-5 separador"></div>
 
-    <main class="containerFormulario" >
-        <h3>CONTACTO</h3>
-      <form action="https://formspree.io/f/mwkadjnl" method="POST" class="formulario">
-        <label for="nombre" class=""></label>
-        <input
-          type="text"
-          class="textoForm"
-          name="nombre"
-          placeholder="Nombre"
-          required=""
-        />
-
-        <label for="Email" class=""></label>
-        <input
-          type="email"
-          class="textoForm"
-          name="email"
-          placeholder="Correo Electrónico"
-          required=""
-        />
-
-        <label for="telefono" class=""></label>
-        <input
-          type="text"
-          class="textoForm"
-          name="telefono"
-          placeholder="Teléfono (opcional)"
-        />
-
-        <textarea
-          class="textoForm"
-          placeholder="Escriba aquí su mensaje..."
-          style="height: 100px"
-        ></textarea>
-        <label for="textarea"></label>
-
-        <div>
-          <button type="submit" class=" enviar">ENVIAR</button>
-        </div>
+    <main class="containerUsuarios" >
         
-      </form>
+      
+        <div class="login">
+             <h4>Ingreso Socios</h4>
+            <form action="" method="POST" class="formulario">
+
+             <label for="Email" class=""></label>
+                <input
+                type="email"
+                class="textoForm"
+                name="email"
+                placeholder="Correo Electrónico"
+                required=""
+                />
+
+                <label for="password" class=""></label>
+                <input
+                   type="password"
+                  class="textoForm"
+                  name="password"
+                  placeholder="Contraseña"
+                  required=""
+                />
+                <button type="submit" class=" enviar">CONTINUAR</button>
+                
+                
+            </form>
+
+        </div>
+
+        <div class="login">
+            <h4>¿No tenés una cuenta? Registrate</h4>  
+            <form action="" method="POST" class="formulario">
+
+                <label for="Email" class=""></label>
+                <input
+                type="email"
+                class="textoForm"
+                name="email"
+                placeholder="Correo Electrónico"
+                required=""
+                />
+
+                <label for="password" class=""></label>
+                <input
+                type="password"
+                class="textoForm"
+                name="password"
+                placeholder="Contraseña"
+                required=""
+                />
+
+
+                <div>
+          <button type="submit" class=" enviar">CONTINUAR</button>
+                </div>
+            
+            </form>
+        </div>
+      
     </main>
 
 
