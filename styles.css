@@ -74,7 +74,6 @@ li {
     color: #ff383f;
 }
 
-
 .macba {
     font-family: 'Erica One', cursive;
     font-size: 2vw;
@@ -82,14 +81,18 @@ li {
 }
 
 .macba2 {
-    color: #000000;
+    
     font-family: 'Erica One', cursive;
     font-size: 2vw;
     display: none;
     
 }
 
-
+.irAInicio {
+    text-decoration: none;
+    color: #000000;
+    
+}
 
 .separador {
     width: 95%;
