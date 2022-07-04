@@ -54,3 +54,25 @@
 .separadorPie {
     margin-top: 4vw;
 }
+
+@media (max-width: 1100px) and (min-width: 651px){
+
+    .enviar {
+        font-size: 100%;
+        width: 35%;
+        height: 4.5vw;
+        
+    }
+
+}
+
+@media (max-width: 650px) and (min-width: 200px){
+
+    .enviar {
+        font-size: 100%;
+        width: 50%;
+        height: 8.5vw;
+        
+    }
+
+}
