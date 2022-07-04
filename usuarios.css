@@ -68,8 +68,8 @@
 @media (max-width: 1100px) and (min-width: 700px){
 
     .login {
-        width: 420px;
-        height: 45vh;
+        width: 430px;
+        height: 60vh;
     }
     
     .enviar {
@@ -77,6 +77,9 @@
         height: 4vw;
         
         
+    }
+    .separadorPie {
+        margin-top: 2vw;
     }
 }
 

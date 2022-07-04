@@ -4,11 +4,13 @@
     background-image: url(museo.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    height: auto;
     
 }
 
 .containerHorariosEntradas {
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -20,6 +22,7 @@
     color: black;
     text-shadow: .04em .04em 0 #a1a1a1;
     font-weight: 600;
+    
 }
 
 .containerHorariosEntradas li {
@@ -31,6 +34,7 @@
     font-size: 1.5vw;
     text-align: left;
     font-weight: 600;
+    
     
     
 }
@@ -51,4 +55,86 @@
 iframe {
     height: auto;
     width: 50%;
+}
+
+@media (max-width: 992px) and (min-width: 520px){
+
+    .portada h1 {
+        font-size: 15vw;
+    }
+
+    .containerHorariosEntradas h3 {
+        
+        font-size: 5vw;
+    }
+    
+    .containerHorariosEntradas li {
+        
+        font-size: 3vw;
+        
+    }
+   
+
+    .visitas {
+        width: 100%;
+        
+    }
+    iframe {
+        height: auto;
+        width: 100%;
+        
+    }
+    .principal { 
+        height: 180vh;
+    }
+    
+}
+
+@media (max-width: 519px) and (min-width: 200px){
+
+
+    .portada h1 {
+        font-size: 19vw;
+    }
+
+    .containerHorariosEntradas {
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .containerHorariosEntradas h3 {
+        
+        font-size: 8vw;
+    }
+
+    .horarios {
+        width: 80%;
+    }
+
+    .entradas {
+        width: 80%;
+    }
+    
+    .containerHorariosEntradas li {
+        
+        font-size: 6vw;
+    
+        
+    }
+   
+
+    .visitas {
+        width: 100%;
+        
+    }
+    iframe {
+        height: auto;
+        width: 100%;
+        
+    }
+    .principal { 
+        height: 180vh;
+    }
+
 }
