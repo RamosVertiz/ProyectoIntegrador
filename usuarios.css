@@ -13,8 +13,8 @@
 
 
 .login {
-    width: 430px;
-    
+    width: 420px;
+    height: auto;
 }
 
 
@@ -42,7 +42,7 @@
 
     background-color: #ff383f;
     color: white;
-    font-size: 1.3vw;
+    font-size: 100%;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1vw;
@@ -63,4 +63,35 @@
 
 .separadorPie {
     margin-top: 9vw;
+}
+
+@media (max-width: 1100px) and (min-width: 700px){
+
+    .login {
+        width: 420px;
+        height: 45vh;
+    }
+    
+    .enviar {
+
+        height: 4vw;
+        
+        
+    }
+}
+
+@media (max-width: 700px) and (min-width: 200px){
+
+    .login {
+        width: 420px;
+        height: 40vh;
+        margin-top: 4vw;
+    }
+    
+    .enviar {
+
+        height: 5vh;
+        width: 60%;
+        
+    }
 }
